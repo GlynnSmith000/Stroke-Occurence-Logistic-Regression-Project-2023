@@ -35,6 +35,9 @@ This project investigates the relationship between various health factors and th
 - Evaluated multicollinearity using **VIF values**.
 - Assessed model assumptions and predictive performance.
 
+<img width="579" alt="Screenshot 2025-03-04 at 9 31 18 AM" src="https://github.com/user-attachments/assets/7cdecc91-4e6a-438b-a627-176ef2f47363" />
+
+
 ### Model Selection
 - Built an initial model including all predictor variables.
 - Stepwise selection dropped **smoking status** and **gender** due to lack of significance.
@@ -54,9 +57,14 @@ The final logistic regression model predicts stroke occurrence using the followi
 ## Results
 - **Smoking status was not a significant predictor** and was excluded from the final model.
 - The model achieved:
+<img width="214" alt="Screenshot 2025-03-04 at 9 33 13 AM" src="https://github.com/user-attachments/assets/77cd1b6f-9536-42fb-8a22-5f9877eab813" />
+
   - **Sensitivity** = 78.71%
   - **Specificity** = 72.45%
   - **AUC (Area Under the Curve)** = 0.8225
+
+  ![image](https://github.com/user-attachments/assets/c33773f9-aeb4-42dc-a034-3b57cf281961)
+
 
 ## Limitations
 - **Validity of the data was a concern**, as the dataset's exact source was unclear despite its use in prior hackathons and published analyses.
